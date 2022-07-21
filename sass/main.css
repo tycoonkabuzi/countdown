@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.main {
+  background-image: url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.main__countdown {
+  width: 110vh;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin: auto;
+}
+.main__days, .main__hours, .main__minutes, .main__secs {
+  margin-top: 20vh;
+  color: #2D3F54;
+}
+.main__days h1, .main__hours h1, .main__minutes h1, .main__secs h1 {
+  font-size: 12vh;
+  font-weight: 900;
+  text-align: center;
+}
+.main__days p, .main__hours p, .main__minutes p, .main__secs p {
+  font-size: 4vh;
+  text-align: center;
+}/*# sourceMappingURL=main.css.map */
